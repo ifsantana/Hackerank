@@ -17,6 +17,7 @@ class Solution {
     // Complete the sockMerchant function below.
     static int sockMerchant(int n, int[] ar) {
         int numberOfPairs = 0;
+        
         int[] colors = findColors(n, ar);
 
         numberOfPairs = calculatePairs(colors, ar);
