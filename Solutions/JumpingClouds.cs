@@ -16,15 +16,15 @@ class JumpingClouds {
 
     // Complete the jumpingOnClouds function below.
     static int jumpingOnClouds(int[] c) {
-        int initCloud = 0, finalCloud = c.Count(), index = 0, totalJumps = 0;
+        int index = 0, totalJumps = 0;
 
-        while(index < finalCloud)
+        while(index < c.Count())
         {
-            if((index + 2 < finalCloud) && (c[index + 2] == 0))
+            if((index + 2 < c.Count()) && (c[index + 2] == 0))
             {
                 index += 2;
             }
-            else if (index + 1 < finalCloud)
+            else if (index + 1 < c.Count())
             {
                 index++;
             }
