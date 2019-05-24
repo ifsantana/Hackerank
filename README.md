@@ -1,1 +1,3 @@
-# Hackerank-SockMerchant
+# Hackerank Solutions
+
+
