@@ -4,6 +4,9 @@ import java.text.*;
 import java.util.*;
 import java.util.regex.*;
 
+// Solution based on this article:
+// https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/the-euclidean-algorithm
+
 public class PossiblePath {
 
     // Complete the solve function below.
