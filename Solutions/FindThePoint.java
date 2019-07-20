@@ -4,7 +4,7 @@ import java.text.*;
 import java.util.*;
 import java.util.regex.*;
 
-public class Solution {
+public class FindThePoint {
 
     /*
      * Complete the findPoint function below.
