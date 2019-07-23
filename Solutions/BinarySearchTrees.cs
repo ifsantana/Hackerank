@@ -10,37 +10,37 @@ class Node{
 }
 class BinarySearchTrees {
 
-static int getHeight(Node root){
-      //Write your code here
-      int leftHeigth = 0, rightHeigth = 0;
+	static int getHeight(Node root){
+	      //Write your code here
+	      int leftHeigth = 0, rightHeigth = 0;
 
-      if(root == null)
-        return -1;
+	      if(root == null)
+		return -1;
 
-      if(root.left != null)
-        leftHeigth = 1 + getHeight(root.left);
+	      if(root.left != null)
+		leftHeigth = 1 + getHeight(root.left);
 
-      if(root.right != null)
-        rightHeigth = 1 + getHeight(root.right);
+	      if(root.right != null)
+		rightHeigth = 1 + getHeight(root.right);
 
-      return leftHeigth > rightHeigth ? leftHeigth : rightHeigth;
-    }
+	      return leftHeigth > rightHeigth ? leftHeigth : rightHeigth;
+	}
 
 	static Node insert(Node root, int data){
-        if(root==null){
-            return new Node(data);
-        }
-        else{
-            Node cur;
-            if(data<=root.data){
-                cur=insert(root.left,data);
-                root.left=cur;
-            }
-            else{
-                cur=insert(root.right,data);
-                root.right=cur;
-            }
-            return root;
+		if(root==null){
+		    return new Node(data);
+		}
+		else{
+		    Node cur;
+		    if(data<=root.data){
+			cur=insert(root.left,data);
+			root.left=cur;
+		    }
+		    else{
+			cur=insert(root.right,data);
+			root.right=cur;
+		    }
+		    return root;
         }
     }
     static void Main(String[] args){
