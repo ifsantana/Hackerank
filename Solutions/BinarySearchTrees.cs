@@ -12,8 +12,7 @@ class BinarySearchTrees {
 
 static int getHeight(Node root){
       //Write your code here
-      int leftHeigth = 0;
-      int rightHeigth = 0;
+      int leftHeigth = 0, rightHeigth = 0;
 
       if(root == null)
         return -1;
