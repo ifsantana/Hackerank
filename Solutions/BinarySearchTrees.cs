@@ -1,4 +1,5 @@
 using System;
+// Solution based on: https://www.hackerrank.com/challenges/30-binary-search-trees/tutorial
 class Node{
     public Node left,right;
     public int data;
