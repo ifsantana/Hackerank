@@ -11,7 +11,7 @@ class Node{
         left=right=null;
     }
 }
-class BSTLevel-OrderTraversal {
+class BinarySearchTreeLevelOrderTraversal {
     
     
 	static void levelOrder(Node root){
