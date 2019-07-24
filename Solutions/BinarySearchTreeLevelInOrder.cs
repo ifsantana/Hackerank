@@ -14,7 +14,7 @@ class Node{
 class BinarySearchTreeLevelInOrder {
     
     
-	static void inOrder(Node root){
+   static void inOrder(Node root){
         
         if(root != null)
         {
@@ -25,8 +25,9 @@ class BinarySearchTreeLevelInOrder {
         }
     }
 
-	static Node insert(Node root, int data){
-        if(root==null){
+    static Node insert(Node root, int data){
+
+        if(root==null) {
             return new Node(data);
         }
         else{
@@ -42,6 +43,7 @@ class BinarySearchTreeLevelInOrder {
             return root;
         }
     }
+
     static void Main(String[] args){
         Node root=null;
         int T=Int32.Parse(Console.ReadLine());
