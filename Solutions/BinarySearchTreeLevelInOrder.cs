@@ -20,7 +20,6 @@ class BinarySearchTreeLevelInOrder {
         {
            inOrder(root.left);
            inOrder(root.right);
-           
            Console.Write(root.data + " ");
         }
     }
