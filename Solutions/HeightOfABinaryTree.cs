@@ -14,13 +14,7 @@ class Node {
 }
 
 class HeightOfABinaryTree {
-     int size = 0;
-	/*
-    class Node 
-    	int data;
-    	Node left;
-    	Node right;
-	*/
+
 	public static int height(Node root) {
         int leftHeight = 0, rightHeight = 0;
 
